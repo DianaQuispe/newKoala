@@ -1,0 +1,151 @@
+
+* {
+    font-family: 'Bree Serif', serif;
+}
+nav div  {
+    background-color: transparent;
+}
+.nav li {
+    color: white;
+}
+.container-fluid, .navbar {
+    background-color: #04031d;
+}
+.container{
+
+    width: 100%;
+    height: 100%;
+}
+#koala{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../docs/img/portada.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+
+.saveKoala {
+    color: white;
+    position: absolute;
+    width: 30%;
+    top: 35%;
+}
+
+
+#easy-help {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    color: white;
+    background-color: #A89F68;
+}
+#easy-help .col-md-6 {
+    padding: 5em 0;
+}
+.container .btn {
+    color: white;
+    background-color: rgb(65, 82, 31);
+
+    border-color: transparent;
+    margin: 2% 3%;
+
+}
+.col-md-6 >div >img {
+    border: 15px solid white;
+}
+
+#help-koala{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(../docs/img/all.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#help-koala .container .row {
+    width: 25%;
+    position: absolute;
+    top: 14%;
+    right: 24%;
+}
+h1, h2, h3 {
+    font-weight: 700;
+    color: #A89F68;
+}
+#donate {
+    color:  #A89F68;
+}
+.carousel-inner .item img {
+    width: 0%;
+    max-height: 550px;
+    margin: 0 auto;
+    max-width: 50%;
+
+}
+
+.carousel-inner .item  {
+    max-height: 550px;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+#donation-today {
+    background-color: #A89F68;
+}
+#donation-today > .container > .text-center  {
+    margin: 5%;
+}
+#donation-today .col-md-4 h1 {
+    color: white;
+    font-size: 9em;
+
+}
+#donation-today .col-md-4 h1:after {
+    content: "/aud";
+    font-size: 27%;
+    text-transform: uppercase;
+
+}
+#donation-today .col-md-4 h1:before {
+    font-size: 37%;
+    content: '$';
+    position: absolute;
+    left: 12%;
+}
+.item > img {
+    max-height: 550px;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+footer .col-xs-12 p {
+    color: white;
+}
+footer {
+    color: #fff;
+    background-color: #41521F;
+    padding: 5em 0 2em;
+}
+footer h4 {
+    color: #A89F68;
+    font-weight: 700;
+}
+footer li {
+    list-style: none;
+
+}
+
+footer li a {
+    color: #A89F68;
+
+}
+.modal-content h4, .modal-content p{
+    color: black;
+}
